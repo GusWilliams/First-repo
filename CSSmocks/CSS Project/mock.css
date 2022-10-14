@@ -1,0 +1,125 @@
+
+/* Mock 1 */
+
+.signupbtn {
+  background-color: rgb(29, 155, 240);
+  border: 1px solid rgb(26, 140, 216);
+  color: white;
+  height: 50px;
+  width: 120px;
+  margin: 3rem auto;
+  border-radius: 5px;
+  font-size: 19px;
+  display: block;
+  justify-content: center;
+  transition: background-color 200ms ease-out;
+}
+
+.signupbtn:hover {
+  background-color: rgb(21, 112, 172);
+}
+
+.signupbtn:active {
+  box-shadow: 0px 1px 2px 0px rgb(18, 66, 97);
+}
+
+/* Mock 2 */
+
+.textbox {
+  background-image: url(https://i.pinimg.com/736x/6b/9d/be/6b9dbe9135f40c9bd23e61450a9778f5.jpg);
+  background-position: 0px -200px;
+  box-shadow: 0px 2px 5px 0px black;
+  border: 1px solid rgb(53, 53, 53);
+  border-radius: 20px;
+  width: 40%;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.caption {
+  border-top: 1px solid gray;
+  background-color: rgb(201, 201, 201);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  bottom: 0px;
+}
+.man {
+  padding-left: 2em;
+}
+
+.motto {
+  padding: 1em;
+  border-top: 2px solid rgb(97, 97, 97);
+}
+
+/* Mock 3 */
+
+.vtvl {
+  margin: 2em auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 80px;
+  border-radius: 8px;
+  font: 28px Arial;
+  color: white;
+  padding-left: 1em;
+  padding-right: 1em;
+  box-sizing: border-box;
+  background: radial-gradient(rgb(0, 0, 0), rgb(99, 67, 67, 0.1));
+}
+
+.gif-info {
+  display: flex;
+  justify-content: space-around;
+  margin: 4em 2em 2em 2em;
+}
+
+.block {
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 3px 3px black;
+}
+
+.description {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 1.2em;
+  border-radius: 10px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  top: 280px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background: linear-gradient(to top, rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  transition: top 500ms;
+
+}
+
+.block:hover .description{
+  top: 0px;
+
+}
+
+#spacex {
+  background: center/188% no-repeat url(https://media0.giphy.com/media/3ohs4gSs3V0Q7qOtKU/giphy.gif?cid=ecf05e47f5gihcxukwz0an1cqpeesg5xfzblm0erijrewzox&rid=giphy.gif&ct=g);
+}
+
+#blue {
+  background: bottom no-repeat url(https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_29/2502151/180718-blue-origin-square-mn-1520.gif);
+}
+
+#delta {
+  background: center/135% no-repeat url(https://thumbs.gfycat.com/GrouchyFormalChamois-max-1mb.gif);
+  
+} 
