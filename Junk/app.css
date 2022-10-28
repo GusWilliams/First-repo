@@ -1,0 +1,10 @@
+h1{
+  text-align: center;
+  font-size: 2rem;
+  font-family: nosifer;
+  text-decoration: line-through;
+  text-shadow: 2px 2px 2px rgba(111, 0, 0, 0.7);
+}
+body {
+  background: linear-gradient(gray,purple)
+}
