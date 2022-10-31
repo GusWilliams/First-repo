@@ -1,0 +1,12 @@
+h1 {
+	font-size: 300px;
+	text-align: center;
+}
+
+.letter {
+	transition: color 600ms ease-in-out;
+}
+
+body {
+	background-color: rgb(32, 32, 32);
+}
